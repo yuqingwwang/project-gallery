@@ -1,0 +1,43 @@
+h1, h2, p, li {
+  font-family:'Chakra Petch', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  display: inline-flex;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+  font-size: 25px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cover {
+  max-width: 80%;
+}
+
+.project  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

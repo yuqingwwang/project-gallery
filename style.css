@@ -4,20 +4,21 @@ h1, h2, p, li {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 p {
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 ul {
   display: inline-flex;
+  padding-inline-start: 0px;
 }
 
 li {
@@ -26,10 +27,19 @@ li {
   font-size: 25px;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 30px;
 }
 
 .cover {
@@ -38,15 +48,14 @@ li {
 
 .project  {
   display: flex;
-  width: 500px;
-  margin: 10px;
+  max-width: 300px;
+  margin: 20px;
   flex-direction: column;
   display: flex;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
   align-items: center;
-  padding: 20px;
-  background-color: rgba(147, 224, 178, 0.598);
+  background-color: rgba(227, 164, 56, 0.592);
 }
 
 .project:last-child {
@@ -56,5 +65,18 @@ li {
 @media (max-width: 500px) {
   .container {
     flex-direction: row;
+    padding: 30px;
+   }
+
+   h1 {
+    font-size:large;
+   }
+
+   h2 {
+    font-size: large;
+   }
+
+   p, li {
+    font-size: small;
    }
 }

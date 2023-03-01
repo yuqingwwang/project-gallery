@@ -13,12 +13,12 @@ h2 {
 
 p {
   font-size: 20px;
-  padding: 10px;
+  padding: 15px;
 }
 
 ul {
   display: inline-flex;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }
 
 li {
@@ -26,12 +26,6 @@ li {
   list-style: none;
   font-size: 25px;
 }
-
-/* .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
 .container {
   display: flex;
@@ -44,6 +38,11 @@ li {
 
 .cover {
   max-width: 80%;
+  padding-bottom: 10px;
+}
+
+.details {
+  display: contents;
 }
 
 .project  {
@@ -79,4 +78,18 @@ li {
    p, li {
     font-size: small;
    }
+}
+
+button {
+  background-color: #5e3c5f;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

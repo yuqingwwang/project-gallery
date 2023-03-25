@@ -8,3 +8,8 @@ Check [here](https://yuqingwwang.github.io/project-gallery/) to see my project g
 - [Rock Paper Scissors](https://yuqingwwang.github.io/rock-paper-scissors/)
 - [Etch a Sketch](https://yuqingwwang.github.io/Etch-A-Sketch/)
 - [Objectively Funny](https://objectively-funny.streamlit.app/)
+
+
+## Challenges
+- dispalying project cards differently on mobile and laptop
+- added show/hide button to make it more interactive

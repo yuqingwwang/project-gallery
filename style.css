@@ -55,6 +55,7 @@ li {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   align-items: center;
   background-color: rgba(227, 164, 56, 0.592);
+  padding-bottom: 30px;
 }
 
 .project:last-child {

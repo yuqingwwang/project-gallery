@@ -6,12 +6,41 @@
     <link href="style.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
     <title>Project Gallery</title>
-    <script src="app.js" defer></script>
   </head>
   <body>
-    <h1>Welcome to the Project Gallery</h1>
-    <p>Web and Data Projects made by Yuqing</p>
-    <div class="container">
+    <h1>Project Gallery</h1>
+    <h2>Web and Data Projects made by Yuqing</h2>
+    <!-- <div class="container">
+      <div class="project">
+        <h2>Objectively Funny</h2>
+        <img class="cover" src="images/objectively-funny.gif" alt="objectively-funny">
+        <button class="toggle-button">Show/Hide</button>
+        <div class="details">
+          <p>An NLP project made by four Data Science students.
+            <br><br>
+            We sourced and processed
+            a wide range of stand-up scripts to analyse comedians and make our own comedy with GPT-2.</p>
+          <ul>
+            <li><a href='https://github.com/yuqingwwang/streamlit_objective_funny'>Github</a></li>
+            <li><a href='https://objectively-funny.streamlit.app/'>Website</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="project">
+        <h2>Monster Inc.</h2>
+        <img class="cover" src="images/monster.png" alt="monster-inc">
+        <button class="toggle-button">Show/Hide</button>
+        <div class="details">
+          <p>Have an unsolved mystery in your life? Things feeling a little too spooky?
+            <br><br>
+            Contact our monster detective agency today and we might have the solution for you.
+          </p>
+          <ul>
+            <li> <a href='https://github.com/fac28/monster-inc'>Github</a></li>
+            <li><a href='https://nichgalzin.github.io/monster-inc/'>Website</a></li>
+          </ul>
+        </div>
+      </div>
       <div class="project">
         <h2>Hobby Page</h2>
         <img class="cover" src='images/hobby-page.gif' alt="hobby-page">
@@ -60,24 +89,25 @@
           </ul>
         </div>
       </div>
-      <div class="project">
-        <h2>Objectively Funny</h2>
-        <img class="cover" src="images/objectively-funny.gif" alt="objectively-funny">
-        <button class="toggle-button">Show/Hide</button>
-        <div class="details">
-          <p>An NLP project made by four Data Science students.
-            <br><br>
-            We sourced and processed
-            a wide range of stand-up scripts to analyse comedians and make our own comedy with GPT-2.</p>
-          <ul>
-            <li><a href='https://github.com/yuqingwwang/streamlit_objective_funny'>Github</a></li>
-            <li><a href='https://objectively-funny.streamlit.app/'>Website</a></li>
-          </ul>
+
+    </div> -->
+    <div class="container">
+      <template id="project-template">
+        <div class="project">
+          <h2></h2>
+          <img class="cover" alt="">
+          <button class="toggle-button">Read More</button>
+          <div class="details">
+            <p></p>
+            <ul>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </template>
     </div>
-  </div>
-  <!-- <footer>Made by Yuqing</footer> -->
+    <!-- <footer>Made by Yuqing</footer> -->
   <script src="./app.js"></script>
   </body>
   </html>

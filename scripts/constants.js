@@ -8,6 +8,13 @@ export const projects = [
     website: "https://objectively-funny.streamlit.app/"
   },
   {
+    title: "github-profile-analyser",
+    alt: "github-profile-analyser",
+    description: "A web app that allows you to search for a GitHub user and see their profile information.",
+    github: "https://yuqingwwang.github.io/github-profile-analyser/",
+    website: "https://yuqingwwang.github.io/github-profile-analyser/"
+  },
+  {
     title: "Monster Inc.",
     image: "monster.png",
     alt: "monster-inc",

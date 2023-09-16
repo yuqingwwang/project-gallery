@@ -9,6 +9,7 @@ export const projects = [
   },
   {
     title: "github-profile-analyser",
+    image: "analyzer.png",
     alt: "github-profile-analyser",
     description: "A web app that allows you to search for a GitHub user and see their profile information.",
     github: "https://yuqingwwang.github.io/github-profile-analyser/",

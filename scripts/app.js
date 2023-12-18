@@ -24,7 +24,10 @@ document.addEventListener("DOMContentLoaded", function () {
     toggleButton.addEventListener("click", function(event){
       handleToggle(event);
       detailsElement.classList.toggle("show");
-      toggleButton.textContent = detailsElement.classList.contains("show") ? "Read Less" : "Read More";});
+      console.log(detailsElement.classList.contains("show"))
+      toggleButton.textContent = detailsElement.classList.contains("show") ? "Read More" : "Read Less";
+      }
+    );
 
     projectElement.querySelector("h2").textContent = project.title;
     projectElement.querySelector(".cover").src = `images/${project.image}`;
